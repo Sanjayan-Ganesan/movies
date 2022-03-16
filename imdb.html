@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imdb</title>
+</head>
+<style>
+    input{
+        width: 200px;
+    }
+    #container{
+        position: absolute;
+     top: 2%;
+     left: 50%;
+     margin-right: -50%;
+transform: translate(-50%,-50%);
+        width: 1450px;
+        height: 10px;
+        padding: 20px;
+        display: inline-flex;
+        align-items: center;
+        background-color: #47474713;
+    }
+    #menu{
+      display: grid;
+      grid-template-columns: repeat(4,25%);
+    }
+    img{
+        width: 350px;
+        height: 375px;
+        border: 3% solid rgb(119, 119, 119);
+        
+    }
+   #no_container{
+ position:  absolute;
+ top: 50%;
+ left: 50%;
+ width: 350px;
+ height: 400px;
+ padding: 20px;
+ transform: translate(-50%,-50%);
+ display: inline-flex;   
+   }
+   #clicktoWatch:hover{
+       background-color: rgb(119, 119, 119);
+       border: 3px solid white;
+   }
+   
+    
+    
+</style>
+<body style="background-image:url('https://cdna.artstation.com/p/assets/images/images/002/462/046/large/kals-kalai-kabalifilm.jpg?1462013090');">
+    <div id="container">
+        
+            <input id="name" type="text" placeholder="Enter Movie Name" style="margin-left: 40%;border-radius: 5%;height: 20px;">
+        
+        <button type="button" class="btn btn-lg btn-primary"onclick="getMovies()"id="search">SEARCH</button>
+    </div>
+
+    <div id="movies">
+
+    </div>
+    <div id="menu">
+        
+
+    </div>
+    <div id="no_container"> 
+
+    </div>
+    
+</body>
+</html>
+<script src="imdb.js">
+
+</script>
