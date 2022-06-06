@@ -12,7 +12,7 @@
 <h5>Input bar used to search and get in Values from the Api of Imdb</h5>
 
 
-<h2>Live Site</h2>
+<h2>Deployment Link</h2>
 <a href="https://eager-keller-fa0efd.netlify.app/">Live Site</a>
 
 
